@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const ws = require('ws')
 const app = express()
 const { v4:uuidv4 } = require('uuid')
-const URL = 'http://localhost:3030'
+const URL = 'https://firstchat-1.onrender.com'
 const axios = require('axios')
 
 const connectUsers = new Map()
