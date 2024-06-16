@@ -1,0 +1,64 @@
+.chatLocal{
+    height: 80vh;
+    width: 100%;
+}
+
+.chat{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.divSendMessage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    gap: 1vh;
+    z-index: 10;
+}
+
+.divSendMessage input{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    height: 5vh;
+    width: 33%;
+    box-shadow: 0px 0px 4px 1px rgb(59, 59, 59);
+    transition: all 0.3s;
+}
+
+.divSendMessage input:hover{
+    transition: all 0.3s;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0px 0px 6px 1px rgb(18, 18, 18);
+}
+
+.divSendMessage button{
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(55, 102, 82);
+    height: 6vh;
+    width: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 1px rgb(59, 59, 59);
+    transition: all 0.3s;
+}
+
+.divSendMessage button:hover{
+    transition: all 0.3s;
+    background-color: rgb(38, 70, 56);
+    box-shadow: 0px 0px 6px 1px rgb(40, 40, 40);
+}
+
+.divSendMessage button img{
+    width: 4.5vh;
+    height: 4.5vh;
+}

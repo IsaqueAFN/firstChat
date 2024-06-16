@@ -1,0 +1,51 @@
+.chatHeader{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px;
+}
+
+.chatHeader img{
+    width: 5vh;
+    height: 5vh;
+}
+
+.chatHeader h1{
+    position: relative;
+    left: 7vh;
+    color: white;
+}
+
+.contactImage{
+    position: relative;
+    left: 5vh;
+    border: 2px rgba(0, 0, 0, 0.338) solid;
+    border-radius: 100%;
+    background-color: grey;
+    padding: 0.5vh;
+}
+
+.contactAction{
+    display: flex;
+    gap: 3vh;
+    position: absolute;
+    margin-right: auto;
+    right: 5vh;
+}
+
+.contactAction div{
+    width: 5vh;
+    height: 5vh;
+    padding: 1vh;
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+
+.contactAction div:hover{
+    transition: all 0.3s;
+    background-color: rgb(64, 64, 64);
+}

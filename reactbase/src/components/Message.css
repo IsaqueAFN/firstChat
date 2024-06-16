@@ -1,0 +1,88 @@
+.divAllMessage{
+    display: flex;
+    align-items: center;
+}
+
+.divMessage{
+    position: relative;
+    background-color: rgb(70, 70, 70);
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    left: 1vh;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.divMessageSelect{
+    position: relative;
+    background-color: rgb(40, 40, 40);
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    left: 1vh;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.divMessagesSend{
+    position: relative;
+    background-color: rgb(55, 94, 57);
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    margin-left: auto;
+    right: 1vh;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.divMessagesSendSelect{
+    position: relative;
+    background-color: rgb(33, 53, 34);
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    margin-left: auto;
+    right: 1vh;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.sendName{
+    font-size: small;
+    color: rgb(173, 173, 173);
+}
+
+.divDeleteMessage{
+    position: absolute;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 100%;
+    background-color: rgb(250, 93, 93);
+    justify-content: center;
+    align-items: center;
+    left: 7vh;
+    display: none;
+}
+
+.divDeleteMessage img{
+    width: 1.5vh;
+    height: 1.5vh;
+}
+
+.divDeleteMessageSend{
+    position: absolute;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 100%;
+    background-color: rgb(225, 71, 71);
+    justify-content: center;
+    align-items: center;
+    right: 7vh;
+}
+
+.divDeleteMessageSend img{
+    width: 1.5vh;
+    height: 1.5vh;
+}
