@@ -9,7 +9,7 @@ function SendMSGContext(){
     const [messageSend, setMessageSend] = useState({})
     const [start, setStart] = useState(false)
     const [user, setUser] = useState('')
-    const ws = useRef(null)
+    const wss = useRef(null)
     useEffect(() => {
         if(start === true){
             ws.current = new WebSocket('ws:https://firstchat.onrender.com:8080')
