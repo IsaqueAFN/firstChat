@@ -12,7 +12,7 @@ function SendMSGContext(){
     const wss = useRef(null)
     useEffect(() => {
         if(start === true){
-            ws.current = new WebSocket('ws:https://firstchat.onrender.com:8080')
+            ws.current = new WebSocket('wss:https://firstchat.onrender.com:8080')
             
             ws.current.onopen = () => {
                 console.log('Conectado')
