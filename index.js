@@ -13,7 +13,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 const serverWS = new ws.Server({
-    port: 8080
+    port: process.env.PORT || 8080
 })
 
 serverWS.on('connection', async (ws) => {

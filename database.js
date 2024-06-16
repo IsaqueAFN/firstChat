@@ -27,6 +27,6 @@ app.delete('/messages/deletemessage', (req,res) => {
     messages.splice(idx, 1)
 })
 
-app.listen(3030, () => {
+app.listen(process.env.PORT || 3030, () => {
     console.log('DataBase rodando!')
 })
