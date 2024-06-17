@@ -12,7 +12,7 @@ function SendMSGContext(){
     const ws = useRef(null)
     useEffect(() => {
         if(start === true){
-            ws.current = new WebSocket('wss://websocket-chat-isaqueafns-projects.vercel.app/')
+            ws.current = new WebSocket('wss://websocket-chat-tau.vercel.app')
             
             ws.current.onopen = () => {
                 console.log('Conectado')
